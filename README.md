@@ -16,8 +16,8 @@ The tagger processes training text files that have been tagged with the correct 
 - Replace <output file> with the name of the output text file where the program will write the predicted POS tags.
 
 ## Example
-Let's say we have two training files named train1.txt and train2.txt (both labeled with POS tags), and we want to test our program on test.txt (not labeled with POS tags), generating an output file named output.txt. We would run the following command:
+Let's say we have two training files named train1.txt and train2.txt (both labeled with POS tags), and we want to test our program on test3.txt (not labeled with POS tags), generating an output file named output.txt. We would run the following command:
 
-`python tagger.py --trainingfiles train1.txt train2.txt --testfile test.txt --outputfile output.txt`
+`python tagger.py --trainingfiles train1.txt train2.txt --testfile test3.txt --outputfile output.txt`
 
 
